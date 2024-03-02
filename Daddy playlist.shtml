@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.buttcheecks {
+  background-image: conic-gradient(red, cyan, green, blue, orange);
+}
+</style>
+</head>
+<body class="buttcheecks">
+
+<h2>Hoverable Dropdown</h2>
+<p>Move the mouse over the text below to open the dropdown content of songs</p>
+<span>Some pop songs <br> Hover this picture to find songs  </span>
+   <div class="dropdown">
+<img src="Screenshot 2024-03-02 213233.png">
+  <div class="dropdown-content">
+   <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/3jDdpx9PMlfMBS5tOBHFm9?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+   <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/3sa06xVNmLLYIxdNNmVQN8?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+   <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/4laAKIq9ZxBCwf99rauPYb?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+   <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/3iHzKA9HlXf5wsGdsrsnSA?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+   <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/4xMbBESczlHPUO8QeYi56p?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+  </div>
+</div>
+
+</body>
+</html>
+
+
