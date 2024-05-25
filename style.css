@@ -5,8 +5,8 @@
     font-family: "Poppins", sans-serif;
   }
   body {
-    background-color: #fdbf00;
-  }
+  background-image: linear-gradient(135deg, magenta, pink, cyan, blue, beige, brown);
+}
   .card {
     width: 640px;
     height: 400px;
@@ -139,4 +139,5 @@
     font-size: 120px;
     line-height: 120px;
   }
+
   
